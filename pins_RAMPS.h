@@ -546,3 +546,6 @@
   #define BTN_ENC            -1
   // pin 29 N/C
 #endif // ZONESTAR_LCD
+
+#undef FAN_PIN
+#define FAN_PIN -1 //undefine the extra fun for extruder fan
